@@ -44,7 +44,11 @@
           </div>
 
           <div class="pc-content">
-
+            <!-- <form id="subscribe-form" action="index.html" method="post">
+              <label for="femail">Your e-mail</label>
+              <input id="femail" type="email" name="femail" placeholder="Your e-mail" autocomplete="on">
+              <input type="submit" value="Subscribe">
+            </form> -->
           </div>
 
         </div>
@@ -58,14 +62,14 @@
         <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
         <div id="navigation-draw"></div>
         <img class="main-print-screen" src="img/main-print.png" alt="Demo print-screen">
-        <a href="#" class="main-try-button"><button id="main-try-button" type="button">Try For Free</button></a>
+        <a href="#" class="try-button"><button id="main-try-button" type="button">Try For Free</button></a>
       </div>
 
       <div class="pc-content">
         <h1>We focus on ergonomics</h1>
         <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
         <img class="main-print-screen" src="img/main-print.png" alt="Demo print-screen">
-        <a href="#" class="main-try-button"><button id="main-try-button" type="button">Try For Free</button></a>
+        <a href="#"><button class="try-button" type="button">Try For Free</button></a>
       </div>
     </main>
 
@@ -97,6 +101,37 @@
           <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
         </div>
       </div>
+    </section>
+
+    <section id="presentation">
+      <header>
+        <h2>Lightning fast prototyping </h2>
+        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <a href="#">
+          <class="try-button" button type="button">Try For Free</button>
+        </a>
+      </header>
+
+      <div id="laptop-draw">
+        <img class="mobile-content" src="img/screen-graphic-small.png" alt="Notebook Screen with graphic">
+        <img class="pc-content" src="img/screen-graphic-big.png" alt="Notebook Screen with graphic">
+      </div>
+    </section>
+
+    <!-- Newsletter subscribe header and form -->
+    <section id="newsletter" class="mobile-content">
+      <header>
+        <h3>At your fingertips</h3>
+        <h2>Newsletter</h2>
+        <h3>Subscribe to our Newsletter</h3>
+        <p>Available exclusivery on Figmaland</p>
+      </header>
+
+      <form id="subscribe-form" action="index.html" method="post" autocomplete="on">
+        <label for="femail">Your e-mail</label>
+        <input id="femail" type="email" name="femail" placeholder="Your e-mail">
+        <input type="submit" value="Subscribe">
+      </form>
     </section>
 
     <!-- Testimonials fixed header for both visualizations -->
@@ -140,7 +175,7 @@
           <h1>10</h1>
           <h3 class="money-symbol">$</h3>
           <h5>Per Month</h5>
-          <a href="#"><button type="button" name="button">Order Now</button></a>
+          <a href="#"><button class="order-now-button" type="button" name="button">Order Now</button></a>
         </div>
 
         <div id="price-2">
@@ -149,7 +184,7 @@
           <h1>10</h1>
           <h3 class="money-symbol">$</h3>
           <h5>Per Month</h5>
-          <a href="#"><button type="button" name="button">Order Now</button></a>
+          <a href="#"><button class="order-now-button" type="button" name="button">Order Now</button></a>
         </div>
 
         <div id="price-3">
@@ -158,10 +193,70 @@
           <h1>10</h1>
           <h3 class="money-symbol">$</h3>
           <h5>Per Month</h5>
-          <a href="#"><button type="button" name="button">Order Now</button></a>
+          <a href="#"><button class="order-now-button" type="button" name="button">Order Now</button></a>
         </div>
       </div>
     </section>
+
+    <section id="contact-us">
+      <header>
+        <h2>Contact Us</h2>
+        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+      </header>
+
+      <!-- Container for flexbox -->
+      <div id="contact-content">
+        <div id="social-media">
+          <a href="https://twitter.com/spinnerzl" target="_blank"><img src="img/twitter-logo.svg" alt="Twitter logo"></a>
+          <a href="https://www.facebook.com/leonardo.almeida.9231" target="_blank"><img src="img/fb-logo.svg" alt="Facebook logo"></a>
+          <a href="https://www.linkedin.com/in/lsouza42/" target="_blank"><img src="img/li-logo.svg" alt="LinkedIn logo"></a>
+        </div>
+
+        <div id="personal-contacts">
+          <div id="our-address">
+            <a href="https://www.google.com/maps/dir//R.+Don%C3%A1+Isabel+de+Barros,+73+-+Torre,+Recife+-+PE,+50710-180,+Brasil/@-8.044024,-34.9106012,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x7ab1902c253f607:0xbabff3693f5be6cc!2m2!1d-34.9084125!2d-8.0440293!3e0"
+              target="_blank">
+              <img src="img/spot-inner-icon.svg" alt="Spot icon" class="spot-icon">
+              <img src="img/spot-outer-icon.svg" alt="Spot icon" class="spot-icon">
+              <h5>R. Dona Isabel de Barros, 73 - Torre, Recife-PE - 50710-180</h5>
+            </a>
+          </div>
+
+          <div id="our-phone">
+            <a href="http://t.me/SpinnerZ" target="_blank">
+              <img src="img/phone-icon.svg" alt="Phone icon">
+              <h5>(81)555-0103</h5>
+            </a>
+          </div>
+
+          <div id="our-email">
+            <a href="mailto:leo26gpl@gmail.com" target="_blank">
+              <img src="img/mail-icon.svg" alt="Email icon">
+              <h5>leo26gpl@gmail.com</h5>
+            </a>
+          </div>
+        </div>
+
+        <form id="contact-us-form" class="pc-content" action="index.html" method="post" autocomplete="on">
+          <fieldset>
+            <legend>Contact Us</legend>
+            <label for="client-name">Your name</label>
+            <input id="client-name" type="text" name="client-name" placeholder="Your name">
+            <label for="client-email">Your email</label>
+            <input id="client-email" type="email" name="client-email" placeholder="Your email">
+            <label for="client-message">Your message</label>
+            <input id="client-message" type="text" name="client-message" placeholder="Your message">
+            <input type="submit" value="Send">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <header>
+        <h3>Pages</h3>
+      </header>
+    </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
