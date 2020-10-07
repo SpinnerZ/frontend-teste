@@ -16,7 +16,7 @@
 
   <body>
     <header id="page-top">
-      <!-- Begin navbar -->
+      <!-- Begin navbar with bootstrap -->
       <nav id="main-nav" class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
@@ -42,19 +42,59 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
+
+          <div class="pc-content">
+
+          </div>
+
         </div>
       </nav>
     </header>
 
+    <!-- Main content using divs to separate mobile to pc content -->
     <main>
-      <h2>Lightning fast prototyping </h2>
-      <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-      <div id="navigation-draw"></div>
-      <img src="img/main-print.png" alt="Demo print-screen">
-      <a href="#"><button id="main-try-button" type="button" name="try-for-free"></button></a>
+      <div class="mobile-content">
+        <h2>Lightning fast prototyping </h2>
+        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <div id="navigation-draw"></div>
+        <img class="main-print-screen" src="img/main-print.png" alt="Demo print-screen">
+        <a href="#" class="main-try-button"><button id="main-try-button" type="button">Try For Free</button></a>
+      </div>
+
+      <div class="pc-content">
+        <h1>We focus on ergonomics</h1>
+        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <img class="main-print-screen" src="img/main-print.png" alt="Demo print-screen">
+        <a href="#" class="main-try-button"><button id="main-try-button" type="button">Try For Free</button></a>
+      </div>
     </main>
 
+    <section id="features">
+      <header>
+        <h3>At your fingertips</h3>
+        <h2>Features</h2>
+        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+      </header>
 
+      <div id="features-content">
+        <div id="feature-1">
+          <img class="feature-icon" alt="Feature decorative icon">
+          <h3>The best products start with Sketch</h3>
+          <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+
+        <div id="feature-2">
+          <img class="feature-icon" alt="Feature decorative icon">
+          <h3>Fastest way to organize</h3>
+          <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+
+        <div id="feature-3">
+          <img class="feature-icon" alt="Feature decorative icon">
+          <h3>Work better together</h3>
+          <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Optional JavaScript -->
