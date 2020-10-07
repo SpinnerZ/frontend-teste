@@ -1,6 +1,6 @@
 /* HTML tags */
 body {
-  background-image : url("../img/bg-gradient.svg");
+  background-image : url("../img/bg-gradient.png"), url("../img/bg-curve.svg");
   background-repeat: no-repeat;
   background-size  : cover auto;
   background-color : #252B42;
@@ -75,6 +75,22 @@ a {
   letter-spacing: .2px;
 }
 
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+main h2 {
+  padding: 17px;
+}
+
+main h4 {
+  padding      : 0 56px;
+  margin-bottom: 30px;
+}
+
+main img {}
+
 button {
   font-family   : 'roboto', sans-serif;
   font-style    : normal;
@@ -107,6 +123,14 @@ input {
 /* Utilitary selectors */
 .pc-content {
   display: none;
+}
+
+.try-button {
+  background   : #FFFFFF;
+  border-radius: 35px;
+  width        : 236px;
+  height       : 65px;
+  color        : #38A3F1;
 }
 /* Specific selectors */
 .navbar-toggle {
