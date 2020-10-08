@@ -305,14 +305,16 @@
 
         <form class="contact-us-form" class="pc-content" action="index.html" method="post" autocomplete="on">
           <fieldset>
-            <legend>Contact Us</legend>
+            <legend>
+              <h3>Contact Us</h3>
+            </legend>
             <label for="client-name">Your name</label>
-            <input class="client-name" type="text" name="client-name" placeholder="Your name">
+            <input id="client-name" type="text" name="client-name" placeholder="Your name">
             <label for="client-email">Your email</label>
-            <input class="client-email" type="email" name="client-email" placeholder="Your email">
+            <input id="client-email" type="email" name="client-email" placeholder="Your email">
             <label for="client-message">Your message</label>
-            <input class="client-message" type="text" name="client-message" placeholder="Your message">
-            <input type="submit" value="Send">
+            <input id="client-message" type="text" name="client-message" placeholder="Your message">
+            <input class="contact-send" type="submit" value="Send">
           </fieldset>
         </form>
       </div>
