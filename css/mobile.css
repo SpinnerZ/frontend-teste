@@ -74,51 +74,6 @@ a {
   line-height   : 27px;
   letter-spacing: .2px;
 }
-
-nav {
-  font-family   : 'roboto', sans-serif;
-  font-style    : normal;
-  font-weight   : normal;
-  font-size     : 30px;
-  line-height   : 45px;
-  letter-spacing: .2px;
-}
-
-form button {
-  background   : #EF2779;
-  border-radius: 35px;
-}
-
-input {
-  background   : #FFFFFF;
-  border       : 1px solid #E8E8E8;
-  box-sizing   : border-box;
-  border-radius: 39px;
-}
-/* Main content*/
-main {
-  text-align   : center;
-  margin-top   : 100px;
-  margin-bottom: 80px;
-}
-
-main h2 {
-  padding: 17px;
-}
-
-main h4 {
-  padding      : 0 56px;
-  margin-bottom: 30px;
-}
-
-button {
-  font-family   : 'roboto', sans-serif;
-  font-style    : normal;
-  font-weight   : 500;
-  font-size     : 16px;
-  line-height   : 16px;
-  letter-spacing: .2px;
-}
 /* Utilitary selectors */
 .pc-content {
   display: none;
@@ -155,9 +110,58 @@ button {
 }
 /* Specific selectors */
 /* Navbar */
+nav {
+  font-family   : 'roboto', sans-serif;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 30px;
+  line-height   : 45px;
+  letter-spacing: .2px;
+}
+
+nav form button {
+  background   : #EF2779;
+  border-radius: 35px;
+}
+
+nav input {
+  background   : #FFFFFF;
+  border       : 1px solid #E8E8E8;
+  box-sizing   : border-box;
+  border-radius: 39px;
+}
+
 .navbar-toggle {
   background-color: transparent;
   border          : none;
+}
+/* Main content*/
+main {
+  text-align   : center;
+  margin-top   : 100px;
+  margin-bottom: 80px;
+}
+
+main h2 {
+  padding: 17px;
+}
+
+main h4 {
+  padding      : 0 56px;
+  margin-bottom: 30px;
+}
+
+button {
+  font-family   : 'roboto', sans-serif;
+  font-style    : normal;
+  font-weight   : 500;
+  font-size     : 16px;
+  line-height   : 16px;
+  letter-spacing: .2px;
+}
+
+label {
+  display: none;
 }
 /* Features */
 .features {
@@ -192,4 +196,42 @@ button {
 
 .presentation-print-screen {
   text-align: center;
+}
+/* Newsletter */
+.newsletter {
+  margin-bottom: 114px;
+}
+
+.newsletter h2 {
+  margin-bottom: 0;
+}
+
+.subscribe-form {
+  margin-top : 0;
+  text-align : center;
+  font-weight: bold;
+}
+
+.subscribe-form input {
+  display         : block;
+  background-color: #EF2779;
+  border-radius   : 35px;
+  border          : none;
+  width           : 350px;
+  height          : 54px;
+  color           : white;
+  margin-top      : 12px;
+  margin-left     : auto;
+  margin-right    : auto;
+  font-weight     : bold;
+}
+
+#femail {
+  background-color: #fff;
+}
+
+::placeholder {
+  color     : #18171D;
+  text-align: center;
+  opacity   : .8;
 }

@@ -43,7 +43,7 @@
 
           <form class="pc-subscribe-form pc-content" action="index.html" method="post">
             <label for="pc-femail">Your e-mail</label>
-            <input class="pc-femail" type="email" name="femail" placeholder="Your e-mail" autocomplete="on">
+            <input id="pc-femail" type="email" name="femail" placeholder="Your e-mail" autocomplete="on">
             <input type="submit" value="Subscribe">
           </form>
 
@@ -123,19 +123,26 @@
 
     <!-- Newsletter subscribe header and form -->
     <section class="mobile-content newsletter">
-      <header>
+      <header class="header">
         <h3>At your fingertips</h3>
         <h2>Newsletter</h2>
-        <h3>Subscribe to our Newsletter</h3>
-        <p>Available exclusivery on Figmaland</p>
       </header>
 
       <form class="subscribe-form" action="index.html" method="post" autocomplete="on">
-        <label for="femail">Your e-mail</label>
-        <input class="femail" type="email" name="femail" placeholder="Your e-mail">
-        <input type="submit" value="Subscribe">
+        <fieldset>
+          <legend>
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Available exclusivery on Figmaland</p>
+          </legend>
+          <label for="femail">Your e-mail</label>
+          <input id="femail" type="email" name="femail" placeholder="Your e-mail">
+          <input type="submit" value="Subscribe">
+        </fieldset>
+
       </form>
     </section>
+
+
 
     <!-- Testimonials fixed header for both visualizations -->
     <section class="testimonials">
