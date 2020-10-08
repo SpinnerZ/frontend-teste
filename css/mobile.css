@@ -188,6 +188,8 @@ label {
 /* Presentation */
 .presentation {
   margin-bottom: 85px;
+  padding-left : 20px;
+  padding-right: 20px;
 }
 
 .presentation button {
@@ -207,9 +209,11 @@ label {
 }
 
 .subscribe-form {
-  margin-top : 0;
-  text-align : center;
-  font-weight: bold;
+  margin-top   : 0;
+  text-align   : center;
+  font-weight  : bold;
+  padding-left : 32px;
+  padding-right: 32px;
 }
 
 .subscribe-form input {
