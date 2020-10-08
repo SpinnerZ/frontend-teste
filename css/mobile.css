@@ -11,7 +11,7 @@ body {
   font-family: 'roboto';
   src        : url("../fonts/roboto/Roboto-Regular.ttf");
 }
-
+/* General components attributes */
 h1 {
   font-family   : 'roboto', sans-serif;
   font-style    : normal;
@@ -75,6 +75,27 @@ a {
   letter-spacing: .2px;
 }
 
+nav {
+  font-family   : 'roboto', sans-serif;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 30px;
+  line-height   : 45px;
+  letter-spacing: .2px;
+}
+
+form button {
+  background   : #EF2779;
+  border-radius: 35px;
+}
+
+input {
+  background   : #FFFFFF;
+  border       : 1px solid #E8E8E8;
+  box-sizing   : border-box;
+  border-radius: 39px;
+}
+/* Main content*/
 main {
   text-align   : center;
   margin-top   : 100px;
@@ -98,56 +119,50 @@ button {
   line-height   : 16px;
   letter-spacing: .2px;
 }
-
-nav {
-  font-family   : 'roboto', sans-serif;
-  font-style    : normal;
-  font-weight   : normal;
-  font-size     : 30px;
-  line-height   : 45px;
-  letter-spacing: .2px;
-}
-
-form button {
-  background   : #EF2779;
-  border-radius: 35px;
-}
-
-input {
-  background   : #FFFFFF;
-  border       : 1px solid #E8E8E8;
-  box-sizing   : border-box;
-  border-radius: 39px;
-}
 /* Utilitary selectors */
 .pc-content {
   display: none;
 }
 
 .try-button {
-  background   : #FFFFFF;
-  border-radius: 35px;
-  width        : 236px;
-  height       : 65px;
-  color        : #38A3F1;
+  border-radius : 35px;
+  border        : none;
+  width         : 236px;
+  height        : 65px;
+  font-weight   : bold;
+  font-size     : 22px;
+  line-height   : 33px;
+  letter-spacing: .1px;
+}
+
+.b-white-font {
+  background: #FFFFFF;
+  color     : #38A3F1;
+}
+
+.b-blue-font {
+  background: #38A3F1;
+  color     : #FFF;
+}
+
+.header {
+  text-align: center;
+  padding   : 64px 45px 88px;
+}
+
+.header h2 {
+  margin: 17px 0 27px;
 }
 /* Specific selectors */
+/* Navbar */
 .navbar-toggle {
   background-color: transparent;
   border          : none;
 }
-
-.features header {
-  text-align: center;
-  padding   : 81px 45px 88px;
-}
-
-.features header h2 {
-  margin: 17px 0 27px;
-}
-
+/* Features */
 .features {
-  height: 1110px;
+  margin-top   : 17px;
+  margin-bottom: 100px;
 }
 
 .features-content {
@@ -165,4 +180,16 @@ input {
 
 .features-content p {
   margin-top: 18px;
+}
+/* Presentation */
+.presentation {
+  margin-bottom: 85px;
+}
+
+.presentation button {
+  margin-top: 65px;
+}
+
+.presentation-print-screen {
+  text-align: center;
 }
