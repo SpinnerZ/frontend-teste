@@ -257,3 +257,56 @@ label {
 .partners button {
   margin-top: 75px;
 }
+/* Testimonials */
+.testimonials {
+  margin-top   : 100px;
+  margin-bottom: 100px;
+  padding-left : 18px;
+  padding-right: 18px;
+  text-align   : center;
+}
+
+.testimonials header img {
+  margin-top   : 80px;
+  margin-bottom: 50px;
+}
+
+.testimonials header p {
+  font-weight: bold;
+  font-size  : 13.5256px;
+  line-height: 17px;
+}
+
+.mobile-testimonial {
+  display        : grid;
+  grid-template  : 21px 21px / 42px 1fr;
+  width          : 130px;
+  grid-column-gap: 9px;
+  margin-left    : auto;
+  margin-right   : auto;
+}
+
+.mobile-testimonial img {
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.mobile-testimonial h6 {
+  grid-area     : 1 / 2 / span 1 / span 1;
+  font-weight   : bold;
+  font-size     : 10.1442px;
+  line-height   : 15px;
+  letter-spacing: .0845349px;
+  text-align    : left;
+}
+
+.mobile-testimonial p {
+  grid-area     : 2 / 2 / span 1 / span 1;
+  font-size     : 12.6802px;
+  line-height   : 23px;
+  letter-spacing: .16907px;
+  text-align    : left;
+}
+
+.testimonials button {
+  margin-top: 95px;
+}
