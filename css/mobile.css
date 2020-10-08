@@ -2,7 +2,7 @@
 body {
   background-image : url("../img/bg-gradient.png"), url("../img/bg-curve.svg");
   background-repeat: no-repeat;
-  background-size  : cover auto;
+  background-size  : auto;
   background-color : #252B42;
   color            : #fff;
 }
@@ -76,8 +76,9 @@ a {
 }
 
 main {
-  text-align: center;
-  margin-top: 100px;
+  text-align   : center;
+  margin-top   : 100px;
+  margin-bottom: 80px;
 }
 
 main h2 {
@@ -88,8 +89,6 @@ main h4 {
   padding      : 0 56px;
   margin-bottom: 30px;
 }
-
-main img {}
 
 button {
   font-family   : 'roboto', sans-serif;
@@ -137,3 +136,26 @@ input {
   background-color: transparent;
   border          : none;
 }
+
+.features header {
+  text-align: center;
+  margin    : 160px 0;
+  padding   : 0 45px;
+}
+
+.features header h2 {
+  margin: 17px 0 27px;
+}
+
+.features-content {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+  align-content  : space-between;
+  height         : 700px;
+}
+
+.feature-1 {}
+
+.feature-2 {}
