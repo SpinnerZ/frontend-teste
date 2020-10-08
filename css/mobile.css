@@ -236,3 +236,20 @@ label {
   opacity   : .8;
 }
 /* Partners */
+.partners {
+  text-align   : center;
+  margin-bottom: 50px;
+}
+
+.partner-widget {
+  margin-bottom: 50px;
+  padding      : 0 100px;
+}
+
+.partner-widget img {
+  margin: 25px 0;
+}
+
+.partners button {
+  margin-top: 75px;
+}
