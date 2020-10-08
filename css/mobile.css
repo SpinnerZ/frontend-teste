@@ -139,23 +139,30 @@ input {
 
 .features header {
   text-align: center;
-  margin    : 160px 0;
-  padding   : 0 45px;
+  padding   : 81px 45px 88px;
 }
 
 .features header h2 {
   margin: 17px 0 27px;
 }
 
-.features-content {
-  display        : flex;
-  flex-direction : column;
-  justify-content: center;
-  align-items    : center;
-  align-content  : space-between;
-  height         : 700px;
+.features {
+  height: 1110px;
 }
 
-.feature-1 {}
+.features-content {
+  padding-left : 80px;
+  padding-right: 80px;
+  display      : grid;
+  grid-row-gap : 90px;
+}
 
-.feature-2 {}
+.widget-header {
+  display              : grid;
+  grid-template-columns: 43px 200px;
+  grid-column-gap      : 9px;
+}
+
+.features-content p {
+  margin-top: 18px;
+}
